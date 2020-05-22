@@ -6,7 +6,7 @@
  */
 import axios from 'axios'
 
-const ERR_OK = 0;
+const ERR_OK = 0
 
 export function get(url) {
   return function (params) {
